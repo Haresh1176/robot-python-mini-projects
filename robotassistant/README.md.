@@ -1,6 +1,6 @@
 # Robot Assistant Simulator
 
-This is a simple Python-based robot assistant simulator that interacts with the user based on robot name, battery level, and operational mode.
+This is a simple Python-based robot assistant simulator that interacts with the user based on the robot name, battery level, and operational mode.
 
 ---
 
