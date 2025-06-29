@@ -1,0 +1,55 @@
+# 🤖 Patrol Robot Simulation
+
+This Python project simulates a patrol robot using Object-Oriented Programming (OOP). The robot can patrol predefined zones, monitor its battery level, and refuse to operate if the battery is too low.
+
+---
+
+## 🚀 Features
+
+- Object-Oriented Robot class (`patrol_robot`)
+- Tracks robot name and battery level
+- Simulates patrolling of different zones:
+  - Zone A: Main Entrance
+  - Zone B: Storage Area
+  - Zone C: Quality Control
+- Automatically reduces battery after each patrol
+- Prevents patrol if battery is below 30%
+- Prints live status updates during operation
+
+---
+
+## 🧠 Concepts Used
+
+- Python classes and objects
+- `__init__` constructor
+- `self` keyword and attributes
+- Methods and conditional logic
+- Battery level simulation
+
+---
+
+## 📂 File Structure
+
+robot_patrol/
+├── robot_patrol.py
+└── README.md
+
+---
+## ▶️ How to Run
+
+Make sure Python is installed, then run:
+
+```bash
+python robot_patrol.py
+
+💡 Example Output
+optimus| battery is 70%
+optimus preparing to patrol A
+patrol zone is A:main entrance
+updated battery level:45%
+optimus preparing to patrol B
+patrol zone is B:storage area
+updated battery level:20%
+optimus preparing to patrol C
+Battery level is low please charge 
+optimus| battery is 20%
